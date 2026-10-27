@@ -1,5 +1,7 @@
 # intentpin
 
+[![tests](https://github.com/decentralizeallengineering/intentpin/actions/workflows/tests.yml/badge.svg)](https://github.com/decentralizeallengineering/intentpin/actions/workflows/tests.yml) ![license](https://img.shields.io/badge/license-Apache--2.0-blue)
+
 Start every Claude Code session, and restart it after every compaction, with the principal's own words.
 
 ## The problem
