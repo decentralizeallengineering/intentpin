@@ -1,0 +1,17 @@
+[build-system]
+requires = ["setuptools>=61"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "intentpin"
+version = "0.1.0"
+description = "Start every Claude Code session, and restart after each compaction, with the principal's own verbatim words."
+readme = "README.md"
+requires-python = ">=3.9"
+license = {text = "Apache-2.0"}
+
+[project.scripts]
+intentpin = "intentpin:main"
+
+[tool.setuptools]
+py-modules = ["intentpin"]
